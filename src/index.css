@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.crypto-dashboard {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.crypto-wrapper {
+  display: flex;
+}
+
+.crypto-convert {
+  text-align: center;
+  padding: 20px;
+  background-color: aquamarine;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 20px;
+}
+
+.crypto-convert > h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+td {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+button {
+  margin: 8px;
+  padding: 6px;
+  background-color: white;
+  border: none;
+}
+
+.crypto-price {
+  background-color: rgb(155, 252, 252);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.crypto-news {
+  background-color: rgb(155, 252, 252);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.crypto-news > h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
